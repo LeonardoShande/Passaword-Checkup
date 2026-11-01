@@ -19,11 +19,11 @@
 Página educativa donde escribes una contraseña y, debajo, ves **qué tan segura es** y **de cuántas formas podrían vulnerarla en la web**. Backend Node sin dependencias + frontend HTML/CSS/JS.
 
 ```text
- .      *        _.-""""""-._      .         /\        +
-     .         .-'  .   .   '-.        *    /  \    .
-  ==========.-----------------.==========   | () |
-  *         '.   .    .   .  .'       .     |    |  *
-        .      '-.......-'        +       /_|____|_\
+ .      *        _.-""""""-._      .             /\        +
+     .         .-'  .   .   '-.        *        /  \    .
+   ==========.-----------------.==========     | () |
+  *          '.   .    .   .  .'       .       |    |  *
+        .        '-.......-'        +        /_|____|_\     .
 ```
 
 ## Novedades de la v1.3
