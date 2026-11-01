@@ -12,7 +12,7 @@
   |_|  |_____| \____||_| |_|
 ```
 
-<p align="center"><img src="public/logo.svg" alt="Logo de Security Tech" width="120"></p>
+<p align="center"><img src="public/baner.js" alt="Logo de Security Tech" width="120"></p>
 
 # Security Tech · Check-up de contraseñas
 
