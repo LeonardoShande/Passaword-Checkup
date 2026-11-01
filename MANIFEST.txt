@@ -1,0 +1,65 @@
+ ____   _____   ____  _   _  ____   ___  _____ __   __
+/ ___| | ____| / ___|| | | ||  _ \ |_ _||_   _|\ \ / /
+\___ \ |  _|  | |    | | | || |_) | | |   | |   \ V /
+ ___) || |___ | |___ | |_| ||  _ <  | |   | |    | |
+|____/ |_____| \____| \___/ |_| \_\|___|  |_|    |_|
+
+ _____  _____   ____  _   _
+|_   _|| ____| / ___|| | | |
+  | |  |  _|  | |    | |_| |
+  | |  | |___ | |___ |  _  |
+  |_|  |_____| \____||_| |_|
+
++==========================================================================+
+| PASSWORD-CHECKUP  ::  paquete v1.3.0                                     |
+|                                                                          |
+| Generado ........ 2026-01-01T00:00:00.000Z (fecha fija: reproducible)    |
+| Archivos ........ 30                                                     |
+| Tamano total .... 231186 bytes                                           |
+| Formato ......... zip "stored", permisos 0644, sin archivos ocultos      |
++==========================================================================+
+
+     BYTES  SHA-256 (16)       RUTA
+  --------  ----------------  ----------------------------
+      181  0441af0b0be728f5  .github/dependabot.yml
+      546  4371d11cc1c8cd1c  .github/workflows/ci.yml
+      434  03b971fd98683df3  .github/workflows/codeql.yml
+     1069  af8716a9bfbbef96  .github/workflows/release.yml
+       64  a612697c15a198d5  .gitignore
+     1068  996cf396eb19289b  LICENSE
+    10635  d1c42c3e62f85d6d  README.md
+     1495  342405e3bcf0414d  SECURITY.md
+      697  288ffa34df8e097f  package.json
+    30104  d6d9c949291be1b3  public/app.js
+     1997  13aa6bceb59ad91e  public/art.js
+     4029  b3293ac239554f01  public/ascii.js
+      931  f1af4f2e63e860ce  public/favicon.svg
+    10742  3769666d7ac83c13  public/index.html
+     4011  f44211b730b5cf50  public/intro.js
+      931  f1af4f2e63e860ce  public/logo.svg
+    41532  0d4485e686976e9c  public/styles.css
+     1273  5d45cd6726eebc0a  public/theme.js
+     1325  3a566605f8710744  scripts/banner.js
+    11642  54c5429d67552b2c  scripts/package.js
+     7594  1b59c1f021ef2838  scripts/verify.js
+    10790  317e936408178e72  server.js
+     4480  d5152dbd1aafd031  src/attacks.js
+    24204  b1b8be866f869477  src/content.js
+    20028  fcee46dd724bfae1  src/scoring.js
+    11450  e7df0ea4309f4f5c  src/urlcheck.js
+     7301  4699ebbd355d38e2  test/modules.test.js
+     6474  2cd6d0f7721bdf5b  test/package.test.js
+     5246  c7f1ce32ee46a1e9  test/scoring.test.js
+     8913  f202380193a60488  test/server.test.js
+
++--------------------------------------------------------------------------+
+| COMO VERIFICAR LA INTEGRIDAD                                             |
+|                                                                          |
+| 1) sha256sum -c password-checkup-v1.3.0.zip.sha256     (junto al .zip)   |
+| 2) unzip el .zip, entra a la carpeta y ejecuta:                          |
+|        sha256sum -c SHA256SUMS                                           |
+| 3) o bien:  node scripts/verify.js <archivo.zip>                         |
+|                                                                          |
+| Si algun archivo no coincide, NO ejecutes el contenido.                  |
+| Reconstruir:  npm run package   (mismo contenido = mismo hash)           |
++--------------------------------------------------------------------------+
