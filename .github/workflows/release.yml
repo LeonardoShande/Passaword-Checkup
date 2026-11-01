@@ -27,7 +27,7 @@ jobs:
           npm run verify -- dist/*.zip
           (cd dist && sha256sum -c *.sha256)
       - name: Atestación de procedencia (quién y desde qué commit se construyó)
-        uses: actions/attest-build-provenance@v2
+        uses: actions/attest-build-provenance@v4
         with:
           subject-path: dist/*.zip
       - name: Publicar release
